@@ -1,0 +1,41 @@
+.App {
+  height: 100vh;
+  display: grid;
+  place-items: center;
+  background: #7474bf;
+  background: -webkit-linear-gradient(to right, #348ac7, #7474bf);
+  background: linear-gradient(to right, #348ac7, #7474bf);
+}
+.main-wrapper {
+  color: white;
+  width: 450px;
+  height: 250px;
+  border: 1px solid black;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  align-items: center;
+  background: #606c88;
+  background: -webkit-linear-gradient(to right, #3f4c6b, #606c88);
+  background: linear-gradient(to right, #3f4c6b, #606c88);
+}
+.options-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 350px;
+}
+
+.options-wrapper > button {
+  background: none;
+  border-radius: 5px;
+  padding: 5px 12px;
+  border-style: solid !important;
+  color: white;
+  border-color: white;
+}
+
+.options-wrapper > button:hover {
+  background: linear-gradient(to right, #5d6881, #818ca5);
+}
